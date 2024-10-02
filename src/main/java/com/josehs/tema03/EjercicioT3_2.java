@@ -15,7 +15,7 @@ public class EjercicioT3_2 {
             System.out.println("El primer numero es mayor que el segundo numero");
         } else if (primerNumero < segundoNumero) {
             System.out.println("El primer numero es menor que el segundo numero");
-
+            teclado.close();
         }
 
     }

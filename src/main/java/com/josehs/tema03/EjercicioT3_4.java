@@ -14,5 +14,6 @@ public class EjercicioT3_4 {
         } else if (primerNumero<segundoNumero) {
             System.out.println(segundoNumero + ", " + primerNumero);
         }
+        teclado.close();
     }
 }

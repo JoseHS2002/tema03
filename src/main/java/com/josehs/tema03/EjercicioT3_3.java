@@ -12,5 +12,6 @@ public class EjercicioT3_3 {
         } else {
             System.out.println("Eres menor de edad");
         }
+        teclado.close();
     }
 }

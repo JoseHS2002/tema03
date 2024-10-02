@@ -2,7 +2,7 @@ package com.josehs.tema03;
 
 import java.util.Scanner;
 
-public class EjercicioT3_4 {
+public class Ejercicio4 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         System.out.println("Escribe el primer numero");

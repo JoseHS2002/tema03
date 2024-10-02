@@ -2,7 +2,7 @@ package com.josehs.tema03;
 
 import java.util.Scanner;
 
-public class EjercicioT3_5 {
+public class Ejercicio5 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         System.out.println("Escribe tu calificacion");

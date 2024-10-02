@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 import java.util.Scanner;
 
-public class EjercicioT3_7 {
+public class Ejercicio7 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         System.out.println("Dime tu edad");

@@ -8,7 +8,7 @@ public class Ejercicio8 {
         System.out.println("Dime el valor del dado");
         int dado = teclado.nextInt();
         if (dado<1 || dado>6) {
-            System.out.println("ERROR: Número incorrecto");
+            System.out.println("ERROR: Numero incorrecto");
         } else if (dado==1) {
             System.out.println("6");
         } else if (dado==2) {

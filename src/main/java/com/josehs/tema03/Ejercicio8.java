@@ -22,5 +22,6 @@ public class Ejercicio8 {
         } else if (dado==6) {
             System.out.println("1");
         }
+        teclado.close();
     }
 }

@@ -21,5 +21,6 @@ public class Ejercicio9 {
         } else if (A!=B && B!=C) {
             System.out.println("El triangulo es escaleno");
         }
+        teclado.close();
     }
 }

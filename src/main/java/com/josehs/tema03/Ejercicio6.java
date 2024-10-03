@@ -53,5 +53,6 @@ public class Ejercicio6 {
         } else {
             System.out.println("ERROR valor no compila");
         }
+        teclado.close();
     }
 }

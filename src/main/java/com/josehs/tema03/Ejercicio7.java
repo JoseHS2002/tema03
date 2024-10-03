@@ -16,5 +16,6 @@ public class Ejercicio7 {
         } else if (edad<18 && socio=="si") {
             System.out.println(dinero - 175);
         }
+        teclado.close();
     }
 }

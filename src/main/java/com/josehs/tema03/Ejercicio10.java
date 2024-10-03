@@ -14,5 +14,6 @@ public class Ejercicio10 {
         } else {
             System.out.println("El año no es bisiesto");
         }
+        teclado.close();
     }
 }

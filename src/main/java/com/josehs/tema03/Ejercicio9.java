@@ -12,7 +12,6 @@ public class Ejercicio9 {
         System.out.println("Dime cuanto mide el tercer lado");
         int C = teclado.nextInt();
 
-
         if (A==B && B==C) {
             System.out.println("El triangulo es equilatero");
         } else if (A==B && B!=C) {

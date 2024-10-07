@@ -1,4 +1,4 @@
-package com.josehs.tema03;
+package com.josehs.tema03.condicionales;
 
 import java.util.Scanner;
 

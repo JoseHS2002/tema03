@@ -4,16 +4,14 @@ public class Ejercicio4 {
     public static void main(String[] args) {
 
         int par=0;
-        int impar=0;
+
         System.out.println("Contar hasta 100 y decir cuantos son pares e impares");
-        for (int parImpar=1; parImpar<101; parImpar++) {
+        for (int parImpar=1; parImpar<101; parImpar+=2) {
             System.out.println(parImpar);
-            if (parImpar%0) {
+            if (parImpar%2!=0) {
                 par = par +1;
-            } else {
-                impar = impar +1;
             }
-            System.out.println("Hay "+ par+ " pares "+ " y "+ impar+ " impares");
+            System.out.println(par+" es impar");
         }
     }
 }

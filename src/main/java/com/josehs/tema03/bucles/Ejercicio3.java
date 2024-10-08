@@ -5,16 +5,26 @@ import java.util.Scanner;
 public class Ejercicio3 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
+
+        int signoA;
+        int signoB;
+        int producto = 0;
         System.out.println("Dime el primer numero");
-        int prod;
-        int i;
-        prod= 0;
-        int x = teclado.nextInt();
+        int a = teclado.nextInt();
         System.out.println("Dime el segundo numero");
-        int y = teclado.nextInt();
-        for (i=1 ; i<= y; i++) {
-            prod = prod + x;
+        int b = teclado.nextInt();
+
+        signoA = a < 0 ? -1 : 1;
+        a *= signoA;
+        signoB = b < 0 ? -1 : 1;
+        b *= signoB;
+        for (int i=1 ; i <= a; i++) {
+            producto = producto+b;
         }
-        System.out.println(y);
+        producto=producto*signoA*signoB;
+        a *= signoA;
+        b *= signoB;
+        System.out.println(a+" x "+b+"= "+producto);
+        System.out.println("Suma"+a+"veces"+b);
     }
 }

@@ -13,6 +13,7 @@ public class Ejercicio10 {
         teclado.close();
         while (n != 0){
             suma = suma+n;
+            break;
         }
         System.out.println("suma: "+suma);
     }

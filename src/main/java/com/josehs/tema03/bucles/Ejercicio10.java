@@ -7,14 +7,15 @@ public class Ejercicio10 {
         Scanner teclado = new Scanner(System.in);
 
         int suma=0;
+        int n;
 
-        System.out.println("Ingresar numero");
-        int n = teclado.nextInt();
-        teclado.close();
-        while (n != 0){
+        do {
+            System.out.println("Ingresar numero");
+            n = teclado.nextInt();
             suma = suma+n;
-            break;
         }
+        while (n != 0);
+
         System.out.println("suma: "+suma);
     }
 }

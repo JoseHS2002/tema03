@@ -8,10 +8,10 @@ public class Ejercicio10 {
 
         int suma=0;
 
+        System.out.println("Ingresar numero");
         int n = teclado.nextInt();
         teclado.close();
         while (n != 0){
-            System.out.println("Ingresar numero");
             suma = suma+n;
         }
         System.out.println("suma: "+suma);

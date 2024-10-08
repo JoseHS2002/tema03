@@ -6,12 +6,14 @@ public class Ejercicio10 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
 
-        int suma = 0;
+        int n;
+        int suma=0;
 
-        while (n !=0){
+        n = teclado.nextInt();
+        teclado.close();
+        while (n != 0){
             System.out.println("Ingresar numero");
-            int n = teclado.nextInt();
-            suma += n;
+            suma = suma+n;
         }
         System.out.println("suma: "+suma);
     }

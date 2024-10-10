@@ -29,5 +29,6 @@ public class Ejercicio11 {
             m=(float)s/e;
             System.out.println("Media: "+m);
         }
+            teclado.close();
     }
 }

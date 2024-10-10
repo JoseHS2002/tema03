@@ -25,13 +25,15 @@ public class Ejercicio12 {
         while (!a && i>0) {
             System.out.println("Adivina el numero entre 1 a 100");
             nu=teclado.nextInt();
-
+            //Le decimos que tiene que hacer en caso de que el numero introducido sea igual que el aleatorio
             if (nu == na) {
                 a=true;
+            //Le decimos que tiene que hacer en caso de que el numero introducido sea mayor que el aleatorio
             } else if (nu > na) {
                 System.out.println("El numero aleatorio es menor al introducido");
                 i--;
                 System.out.println("Tienes "+i+" intentos");
+            //Le decimos que tiene que hacer en caso de que el numero introducido sea menor que el aleatorio
             } else {
                 System.out.println("El numero aleatorio es mayor al introducido");
                 i--;
@@ -39,6 +41,7 @@ public class Ejercicio12 {
             }
         }
         teclado.close();
+        //Le decimos que mensaje tiene que mostrar en pantalla cuando aciertes o se acaben los intentos
         if(a) {
             System.out.println("You won");
         }else{

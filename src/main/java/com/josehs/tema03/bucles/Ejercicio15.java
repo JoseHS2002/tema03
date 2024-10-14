@@ -9,20 +9,23 @@ public class Ejercicio15 {
         int m=0;
         int s=0;
 
-        System.out.println("Hora: ");
-        h=teclado.nextInt();
-        System.out.println("Minutos: ");
-        m=teclado.nextInt();
-        System.out.println("Segundos: ");
-        s=teclado.nextInt();
+        do {
+            System.out.println("Hora: ");
+            h = teclado.nextInt();
+            System.out.println("Minutos: ");
+            m = teclado.nextInt();
+            System.out.println("Segundos: ");
+            s = teclado.nextInt();
+        }
+        while (!(h>=0 && h<=23) || !(m>=0 && m<=59) || !(s>=0 && s<=59));
+        System.out.println(h+":"+m+":"+s);
         teclado.close();
 
-        if ( !(h>=0 && h<=23) || !(m>=0 && m<=59) || !(s>=0 && s<=59)){
-            System.out.println("La hora no es valida");
-        } else
-        {
-            System.out.println("La hora es valida");
-        }
-        System.out.println(h+":"+m+":"+s);
+            if ( !(h>=0 && h<=23) || !(m>=0 && m<=59) || !(s>=0 && s<=59)){
+                System.out.println("La hora no es valida");
+            } else
+            {
+                System.out.println("La hora es valida");
+            }
     }
 }

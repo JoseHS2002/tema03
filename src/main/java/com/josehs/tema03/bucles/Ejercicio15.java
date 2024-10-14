@@ -23,5 +23,6 @@ public class Ejercicio15 {
         {
             System.out.println("La hora es valida");
         }
+        System.out.println(h+":"+m+":"+s);
     }
 }

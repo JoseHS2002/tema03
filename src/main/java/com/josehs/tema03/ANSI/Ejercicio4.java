@@ -37,3 +37,9 @@ public class Ejercicio4 {
         }
     }
 }
+
+/*Solucion profesor
+for (int i = 1; i <= 9; i++)
+    String cadena = "";
+    System.out.println(cadena);
+ */

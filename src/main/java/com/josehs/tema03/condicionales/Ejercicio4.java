@@ -10,9 +10,9 @@ public class Ejercicio4 {
         System.out.println("Escribe el segundo numero");
         int segundoNumero = teclado.nextInt();
         if (primerNumero>segundoNumero) {
-            System.out.println(primerNumero + ", " + segundoNumero);
-        } else if (primerNumero<segundoNumero) {
             System.out.println(segundoNumero + ", " + primerNumero);
+        } else if (primerNumero<segundoNumero) {
+            System.out.println(primerNumero + ", " + segundoNumero);
         }
         teclado.close();
     }

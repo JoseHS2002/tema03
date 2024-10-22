@@ -7,7 +7,8 @@ public class Ejercicio5 {
         Scanner teclado = new Scanner(System.in);
         System.out.println("Escribe tu calificacion");
         int nota = teclado.nextInt();
-        if (nota==0 && nota<5) {
+        nota=0;
+        if (nota<5) {
             System.out.println("INSUFICIENTE");
         } else if (nota==5 && nota<6) {
             System.out.println("SUFICIENTE");

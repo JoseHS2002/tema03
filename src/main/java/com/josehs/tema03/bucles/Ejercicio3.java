@@ -25,6 +25,6 @@ public class Ejercicio3 {
         a *= signoA;
         b *= signoB;
         System.out.println(a+" x "+b+"= "+producto);
-        System.out.println("Suma"+a+"veces"+b);
+        System.out.println("Suma el primer numero "+b+" veces");
     }
 }

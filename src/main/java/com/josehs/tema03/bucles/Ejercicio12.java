@@ -47,5 +47,6 @@ public class Ejercicio12 {
         }else{
             System.out.println("You lost");
         }
+        System.out.println("El numero era: "+na);
     }
 }

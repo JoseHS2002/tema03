@@ -7,9 +7,9 @@ public class Ejercicio10 {
         Scanner teclado = new Scanner(System.in);
         System.out.println("¿El año es bisiesto?");
         int year = teclado.nextInt();
-        int bisiesto=year%4;
 
-        if (bisiesto==0) {
+
+        if (year%4==0 && (year%400 == 0 || year%100 !=0)) {
             System.out.println("El año es bisiesto");
         } else {
             System.out.println("El año no es bisiesto");

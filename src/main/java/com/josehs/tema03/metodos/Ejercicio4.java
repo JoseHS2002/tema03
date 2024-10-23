@@ -7,8 +7,9 @@ public class Ejercicio4 {
     public static int mayor(int a, int b) {
         int mayor = b;
 
-        if (a>b)
+        if (a>b){
             mayor=a;
+        }
 
         return mayor;
 
@@ -25,10 +26,10 @@ public class Ejercicio4 {
         System.out.println("Introduzca el cuarto número: ");
         d= teclado.nextInt();
 
-        if (mayor(a, b)> mayor(c, d))
-            System.out.println("El mayor es: "+mayor(a, b));
-        else
-            System.out.println("El mayor es: "+mayor(c, d));
+        if (mayor(a, b)> mayor(c, d)) {
+            System.out.println("El mayor es: " + mayor(a, b));
+        }else{
+            System.out.println("El mayor es: "+mayor(c, d));}
 
     }
 
